@@ -14,7 +14,7 @@ install.packages("EpiModel")
 devtools::install_github("statnet/EpiModelHPC")
 devtools::install_github("statnet/Mardham")
 
-#Citation
+#- Citation
 Hamilton DT, Goodreau SM, Jenness SM, Sullivan PS, Wang LY, Dunville RL, Barrios LC, Rosenberg ES.
 Potential Impact of HIV Preexposure Prophylaxis Among Black and White Adolescent Sexual Minority Males.
 Am J Public Health. 2018 Nov;108(S4):S284-S291. doi: 10.2105/AJPH.2018.304471.
