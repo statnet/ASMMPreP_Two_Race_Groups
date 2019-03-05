@@ -5,8 +5,8 @@ library(mardham2)
 library(EpiModelHPC)
 
 
-s1 <- merge_simfiles(1, indir = "scenarios/adol2race/data/")
-s28 <- merge_simfiles(28, indir = "scenarios/adol2race/data/")
+#s1 <- merge_simfiles(1, indir = "scenarios/adol2race/data/")
+#s28 <- merge_simfiles(28, indir = "scenarios/adol2race/data/")
 
 
 # Figure 1 ----------------------------------------------------------------
