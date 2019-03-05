@@ -8,7 +8,9 @@ Running the scripts from this paper requires access to a high performance comput
 
 Within R:
 install.packages("EpiModel")
-# install devtools if necessary, install.packages("devtools")
+
+- install devtools if necessary, install.packages("devtools")
+
 devtools::install_github("statnet/EpiModelHPC")
 devtools::install_github("statnet/Mardham")
 
