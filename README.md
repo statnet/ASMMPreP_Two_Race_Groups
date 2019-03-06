@@ -13,6 +13,7 @@ install.packages("EpiModel")
 
 devtools::install_github("statnet/EpiModelHPC")\
 devtools::install_github("statnet/ASMMPrep_Two_Race_groups")
+
 library(mardham2)
 
 ## Citation
