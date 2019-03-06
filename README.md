@@ -2,7 +2,7 @@
 
 This repository contains the source code to reproduce the analysis described in our HIV transmission model. In this model, we examine the impact of race specific PrEP uptake and adherence on HIV disparities between White and Black adolecent sexaul minority males (ASMM).
 
-This model is written and runs in the R programming language. To utilize the model, it is first necessary to install EpiModel, the epidemic modeling software, and MARDHAM, the extension package for modeling the HIV transmission dynamics among the ASMM examined here.
+This model is written and runs in the R programming language. To utilize the model, it is first necessary to install EpiModel, the epidemic modeling software, and marham2, an extension package for modeling the HIV transmission dynamics among the ASMM examined here.
 
 Running the scripts from this paper requires access to a high performance computing environment. We suggest using a unix cluster, although a high powered Windows or Mac cluster may work. If these encounter errors, we suggest moving to a high powered unix cluster.
 
@@ -12,10 +12,13 @@ install.packages("EpiModel")
 - install devtools if necessary, install.packages("devtools")
 
 devtools::install_github("statnet/EpiModelHPC")\
-devtools::install_github("statnet/Mardham")
+devtools::install_github("statnet/ASMMPrep_Two_Race_groups")
+library(mardham2)
 
 ## Citation
 ## Hamilton DT, Goodreau SM, Jenness SM, Sullivan PS, Wang LY, Dunville RL, Barrios LC, Rosenberg ES. Potential Impact of HIV Preexposure Prophylaxis Among Black and White Adolescent Sexual Minority Males. Am J Public Health. 2018 Nov;108(S4):S284-S291. doi: 10.2105/AJPH.2018.304471.
+
+https://ajph.aphapublications.org/doi/10.2105/AJPH.2018.304471
 
 
 OBJECTIVES:
